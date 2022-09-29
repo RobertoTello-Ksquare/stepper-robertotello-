@@ -10,21 +10,92 @@
 </head>
 
 <body>
-<div>
+<div class="flight">
 
-    <div class="box">
-        <div class="steps">
-            <p>Cabin ·</p>
-            <p>Meals ·</p>
-            <p>Upgrades ·</p>
-            <p>Payment ·</p>
+        <div class="top">
+            <div class="steps">
+                <p id="ca">1 Cabin··············· </p>
+                <p id="me">2 Meals ······<p>
+                <p id="up">3 Upgrades ······</p>
+                <p id="up">4 Payment ···············</p>
+            </div>
         </div>
-       
-
-    
+    <div  class="text">
+        <p id="Meal">Meal Preferences</p>
+        <p id="par">Your fight comes with breakfast, lunch, and dinner. Please
+            make your selections below.
+            Changes to your order can be made up to 48 hours before yout flight.
+        </p>
     </div>
+       <div class="Mid">
+            
+            <div class="izq"> 
+                <div class="eat">
+                     <label for="bf1">Breakfast</label> 
+                         <select id="bf" name="bf">
+                             <option value="selected" selected="selected">- What would you like to eat? -</option>
+                             <option value="Sau">Saussage Egg Scramble Bowl</option>
+                         </select>
+                     
+                     <label for="lu1">Lunch</label> 
+                         <select id="lu" name="lu">
+                             <option value="selected2" selected="selected2">- What would you like to eat? -</option>
+                             <option value="Cl">Club Sandwich Meal</option>
+                         </select>
+                     
+                     <label for="d1">Dinner</label> 
+                         <select id="d" name="d">
+                             <option value="selected3" selected="selected3">- What would you like to eat? -</option>
+                             <option value="Wa">Wagyu Beef Sliders Meal</option>
+                         </select>
+                 </div>
+            </div>
+        <div class="der">
+        <div class="drink">
+            <label for="dr1">Drink</label> 
+            <select id="dr" name="dr">
+                <option value="selected4" selected="selected4">- What would you like to drink? -</option>
+                <option value="Co">Coffee</option>
+                <option value="Cra">Cranberry Juice</option>
+                <option value="Wine">Red Wine</option>
+            </select>
 
+            <label for="dr2">Drink</label> 
+            <select id="dr" name="dr">
+                <option value="selected5" selected="selected5">- What would you like to drink? -</option>
+                <option value="Cra">Cranberry Juice</option>
+                <option value="Co">Coffee</option>
+                <option value="Wine">Red Wine</option>
+            </select>
+
+            <label for="dr3">Drink</label> 
+            <select id="dr" name="dr">
+                <option value="selected6" selected="selected6">- What would you like to drink? -</option>
+                <option value="Cra">Cranberry Juice</option>
+                <option value="Co">Coffee</option>
+                <option value="Wine">Red Wine</option>
+            </select>
+                </div>
+             </div>
+        </div>
+
+
+
+       <div class="bottom">
+            <div class="check">
+                <input type = "checkbox" name = "dessert" value = "on">I'd like dessert, too!
+            </div>
+                <div class="button">
+                    <button>
+                        Back
+                    </button>
+                    <button id="bb" >
+                    Continue
+                    </button>
+            </div>
+        </div>
 </div>
+
 </body>
 
 </html>
